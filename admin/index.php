@@ -31,7 +31,7 @@ if(!isset($_SESSION['adminLoggedIn'])){
 
         <button type="button" class="btn btn-success mb-2"  data-toggle="modal" data-target="#addUser">Add</button>
 
-        <table class="table">
+        <table class="table table-striped table-hover table-responsive  ">
             <thead>
             <tr>
                 <th scope="col">#</th>

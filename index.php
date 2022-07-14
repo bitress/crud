@@ -31,6 +31,19 @@ if(isset($_SESSION['isLoggedIn'])){
 
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Crud</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
     <div class="jumbotron">
         <h3>Hello <?= $user['first_name'] ?></h3>
@@ -69,7 +82,7 @@ if(isset($_SESSION['isLoggedIn'])){
                     </div>
 
                     <div class="form-group">
-                      <button type="button" id="edit_profile" class="btn btn-success btn-block">Edit Profile</button>
+                      <button type="button" id="edit_profile" class="btn btn-primary btn-block">Edit Profile</button>
                           </div>
 
                 </form>
@@ -91,7 +104,7 @@ if(isset($_SESSION['isLoggedIn'])){
                     </div>
 
                     <div class="form-group">
-                        <button type="button" id="change_pass" class="btn btn-success btn-block">Change Password</button>
+                        <button type="button" id="change_pass" class="btn btn-primary btn-block">Change Password</button>
                     </div>
 
                 </form>

@@ -21,62 +21,47 @@
 <section class="h-100">
     <div class="container h-100">
         <div class="row justify-content-md-center h-100">
-            <div class="card-wrapper">
-                <div class="brand">
-
+            <div class="login-form">
+                <h3>Register</h3>
+                <div class="form-group">
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name" value="" class="form-control">
                 </div>
-                <div class="card fat">
-                    <div class="card-body">
-                        <h4 class="card-title">Register</h4>
-                        <form>
 
-                            <div class="form-group">
-                                <label for="first_name">First Name</label>
-                                <input type="text" name="first_name" id="first_name" value="" class="form-control">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="first_name">Last Name</label>
-                                <input type="text" name="last_name" id="last_name" value="" class="form-control">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="username">Username</label>
-                                <input type="text" name="username" id="username" value="" class="form-control">
-                            </div>
-
-
-                            <div class="form-group">
-                                <label for="username">Email</label>
-                                <input type="email" name="email" id="email" value="" class="form-control">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="username">Address</label>
-                                <input type="text" name="address" id="address" value="" class="form-control">
-                            </div>
-
-
-                            <div class="form-group">
-                                <label for="password">Password
-                                </label>
-                                <input id="password" type="password" class="form-control" name="password" required data-eye>
-                            </div>
-
-                            <div class="form-group m-0">
-                                <button type="button" id="register" class="btn btn-primary btn-block">
-                                    Login
-                                </button>
-                            </div>
-                            <div class="mt-4 text-center">
-                                Already have an account? <a href="login.php">Login</a>
-                            </div>
-                        </form>
-                    </div>
+                <div class="form-group">
+                    <label for="first_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name" value="" class="form-control">
                 </div>
-                <div class="footer">
-                    Copyright &copy; 2022 &mdash; Your Company
+
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" value="" class="form-control">
                 </div>
+
+
+                <div class="form-group">
+                    <label for="username">Email</label>
+                    <input type="email" name="email" id="email" value="" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="username">Address</label>
+                    <input type="text" name="address" id="address" value="" class="form-control">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="password">Password
+                    </label>
+                    <input id="password" type="password" class="form-control" name="password" required data-eye>
+                </div>
+
+                <div class="form-group m-0">
+                    <button type="button" id="register" class="btn btn-primary btn-block">
+                        Register
+                    </button>
+                </div>
+                <p class="text-center"><a href="login.php">Have an account</a></p>
             </div>
         </div>
     </div>

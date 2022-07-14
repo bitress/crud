@@ -22,39 +22,27 @@
 <section class="h-100">
     <div class="container h-100">
         <div class="row justify-content-md-center h-100">
-            <div class="card-wrapper">
-                <div class="brand">
-
-                </div>
-                <div class="card fat">
-                    <div class="card-body">
-                        <h4 class="card-title">Login</h4>
-                        <form>
-                            <div class="form-group">
-                                <label for="username">Username</label>
-                                <input id="username" type="text" class="form-control" name="username" value="" required autofocus>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="password">Password
-                                </label>
-                                <input id="password" type="password" class="form-control" name="password" required data-eye>
-                            </div>
-
-                            <div class="form-group m-0">
-                                <button type="button" id="login" class="btn btn-primary btn-block">
-                                    Login
-                                </button>
-                            </div>
-                            <div class="mt-4 text-center">
-                                Don't have an account? <a href="register.php">Create One</a>
-                            </div>
-                        </form>
+            <div class="login-form">
+                <form action="/examples/actions/confirmation.php" method="post">
+                    <h2 class="text-center">Log in</h2>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input id="username" type="text" class="form-control" name="username" value="" required autofocus>
                     </div>
-                </div>
-                <div class="footer">
-                    Copyright &copy; 2022 &mdash; Your Company
-                </div>
+
+                    <div class="form-group">
+                        <label for="password">Password
+                        </label>
+                        <input id="password" type="password" class="form-control" name="password" required data-eye>
+                    </div>
+
+                    <div class="form-group m-0">
+                        <button type="button" id="login" class="btn btn-primary btn-block">
+                            Login
+                        </button>
+                    </div>
+                </form>
+                <p class="text-center"><a href="register.php">Create an Account</a></p>
             </div>
         </div>
     </div>
